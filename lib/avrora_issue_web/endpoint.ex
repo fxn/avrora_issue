@@ -1,9 +1,9 @@
 defmodule AvroraIssueWeb.Endpoint do
   use Phoenix.Endpoint, otp_app: :avrora_issue
 
-  socket "/socket", AvroraIssueWeb.UserSocket,
-    websocket: true,
-    longpoll: false
+  # socket "/socket", AvroraIssueWeb.UserSocket,
+  #   websocket: true,
+  #   longpoll: false
 
   # Serve at "/" the static files from "priv/static" directory.
   #

@@ -5,7 +5,9 @@ defmodule AvroraIssueWeb.Router do
     plug :accepts, ["json"]
   end
 
-  scope "/api", AvroraIssueWeb do
+  scope "/", AvroraIssueWeb do
     pipe_through :api
+
+    get "/", PageController, :index
   end
 end
